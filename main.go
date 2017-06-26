@@ -13,8 +13,8 @@ func main() {
 	app.Name = Name
 	app.Version = Version
 	app.Author = "FINTprosjektet"
-	app.Email = ""
-	app.Usage = ""
+	app.Email = "post@fintprosjektet.no"
+	app.Usage = "Cli to get OAuth access token for FINT API's"
 	app.Action = token.CmdToken
 	app.Flags = GlobalFlags
 	app.Commands = Commands

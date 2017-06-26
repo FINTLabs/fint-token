@@ -9,7 +9,7 @@ Cli to get OAuth access token for FINT API's
 ```
 $ fint-token --help
 NAME:
-   fint-token
+   fint-token - Cli to get OAuth access token for FINT API's
 
 USAGE:
    fint-token [global options] command [command options] [arguments...]
@@ -18,18 +18,18 @@ VERSION:
    1.0.0
 
 AUTHOR:
-   FINTprosjektet
+   FINTprosjektet <post@fintprosjektet.no>
 
 COMMANDS:
      help, h  Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
-   --username value       username
-   --password value       password
-   --client_id value      OAuth2 client id
-   --client_secret value  OAuth2 client secret
-   --help, -h             show help
-   --version, -v          print the version
+   --username value, -u value       username
+   --password value, -p value       password
+   --client_id value, -i value      OAuth2 client id
+   --client_secret value, -s value  OAuth2 client secret
+   --help, -h                       show help
+   --version, -v                    print the version
 ```
 
 ## Install
