@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/bin/ln -s /usr/local/fint/fint-token /usr/local/bin/fint-token

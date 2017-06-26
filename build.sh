@@ -16,4 +16,11 @@ CGO_ENABLED=0 GOOS=linux go build -o ./build/linux/fint-token
 
 zip build/windows.zip ./build/windows/fint-token.exe
 zip build/linux.zip ./build/linux/fint-token
-zip build/mac.zip ./build/mac/fint-token
+#zip build/mac.zip ./build/mac/fint-token
+/usr/bin/pkgbuild \
+    --root ./build/mac/ \
+    --identifier "no.fint.fint-token" \
+    --install-location "/usr/local/fint" \
+    --version "1.0.0" \
+    --scripts ./pkg-script \
+    "./build/fint-token.pkg"
