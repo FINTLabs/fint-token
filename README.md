@@ -15,7 +15,7 @@ USAGE:
    fint-token [global options] command [command options] [arguments...]
 
 VERSION:
-   1.0.0
+   1.1.0
 
 AUTHOR:
    FINTprosjektet <post@fintprosjektet.no>
