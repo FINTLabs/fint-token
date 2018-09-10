@@ -8,6 +8,7 @@ pipeline {
                 }
             }
             steps {
+                sh 'cp /go/src/app/vendor/github.com/FINTprosjektet/fint-token/fint-token_* .'
                 stash includes: 'fint-token_*', name: 'bin'
             }
         }

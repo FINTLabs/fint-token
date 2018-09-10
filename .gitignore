@@ -1,5 +1,5 @@
 *.test
 .idea
-fint-token
+fint-token*
 .DS_Store
 build
