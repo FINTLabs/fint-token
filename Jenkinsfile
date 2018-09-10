@@ -1,12 +1,6 @@
 pipeline {
     agent none
     stages {
-        stage('Prepare') {
-            agent { label 'docker' }
-            steps {
-                sh '. version.sh'
-            }
-        }
         stage('Build') {
             agent {
                 dockerfile {
