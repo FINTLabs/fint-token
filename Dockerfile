@@ -5,4 +5,4 @@ WORKDIR /go/src/app/vendor/github.com/FINTprosjektet/fint-token
 RUN env
 ARG VERSION=0.0.0
 COPY . .
-RUN gox -verbose -arch amd64 -os "linux darwin windows" -ldflags "-X main.Version=${VERSION}"
+RUN gox -verbose -arch amd64 -os "linux darwin windows"
